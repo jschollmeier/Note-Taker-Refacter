@@ -1,10 +1,12 @@
 # Unit 11 Express Homework: Note Taker
 
-## Description
-
 
 ## Deployed APP
 [Link to deployed App on Heroku](https://baroque-saucisson-11249.herokuapp.com/)
+
+## Description
+
+A Note Taking app designed to keep your notes organized and easy to navigate between.
 
 ## Goal
 Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
