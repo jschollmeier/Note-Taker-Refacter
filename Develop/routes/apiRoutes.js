@@ -8,7 +8,7 @@ module.exports = function(app) {
     app.get("/api/notes", function(req, res) {
         //var arrays;
         var obj;
-       fs.readFile("../db/db.json", 'utf8', function(err, data){
+       fs.readFile("./Develop/db/db.json", 'utf8', function(err, data){
            if (err) throw (err);
            obj = data.toString().split(",");
            //array.push(data.toString().split(","));
@@ -29,7 +29,7 @@ module.exports = function(app) {
         array.push(req.body);
         console.log(array);
         
-        fs.writeFile("../db/db.json", JSON.stringify(array, null, 2), 'utf8', function(err){
+        fs.writeFile("./Develop/db/db.json", JSON.stringify(array, null, 2), 'utf8', function(err){
             
             if (err) throw err;
             console.log("data was appended");
@@ -42,7 +42,7 @@ module.exports = function(app) {
         for (let i = 0; i < array.length; i++) {
             if (ids === array[i].id){
                 array.splice(i, 1);
-                fs.writeFile("../db/db.json", JSON.stringify(array, null, 2), 'utf8', function(err){
+                fs.writeFile("./Develop/db/db.json", JSON.stringify(array, null, 2), 'utf8', function(err){
             
                     if (err) throw err;
                     console.log("data was deleted");
