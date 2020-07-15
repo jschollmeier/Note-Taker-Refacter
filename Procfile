@@ -1,1 +1,1 @@
-web: node NOTE-TAKER/Develop/server.js
+web: node server.js
