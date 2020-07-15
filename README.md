@@ -25,8 +25,8 @@ For users that need to keep track of a lot of information, it's easy to forget o
 
 ## Pictures of Deployed App 
 
-<img src="https://raw.githubusercontent.com/jschollmeier/Work-Day-Scheduler/master/WDSSS1.png" alt="My cool logo"/>
-<img src="https://raw.githubusercontent.com/jschollmeier/Work-Day-Scheduler/master/WDSSS1.png" alt="My cool logo"/>
-<img src="https://raw.githubusercontent.com/jschollmeier/Work-Day-Scheduler/master/WDSSS1.png" alt="My cool logo"/>
-<img src="https://raw.githubusercontent.com/jschollmeier/Work-Day-Scheduler/master/WDSSS1.png" alt="My cool logo"/>
+<img src="https://raw.githubusercontent.com/jschollmeier/Note-Taker/master/NTSS1.PNG" alt="My cool logo"/>
+<img src="https://raw.githubusercontent.com/jschollmeier/Note-Taker/master/NTSS2.PNG" alt="My cool logo"/>
+<img src="https://raw.githubusercontent.com/jschollmeier/Note-Taker/master/NTSS3.PNG" alt="My cool logo"/>
+<img src="https://raw.githubusercontent.com/jschollmeier/Note-Taker/master/NTSS4.PNG" alt="My cool logo"/>
 
