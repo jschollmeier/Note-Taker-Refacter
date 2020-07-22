@@ -5,7 +5,7 @@ const util = require('util');
 const connection;
 
 if(process.env.JAWSDB_URL) {
-  connection = mysql.createConnection(process.env.JAWSDB_DB);
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
 }
 
 else{
