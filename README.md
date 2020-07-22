@@ -1,34 +1,52 @@
-# Unit 11 Express Homework: Note Taker
-
-
-## Deployed APP
-[Link to deployed App on Heroku](https://baroque-saucisson-11249.herokuapp.com/)
+# Unit 13 Homework: MVC
 
 ## Description
 
-A Note Taking app designed to keep your notes organized and easy to navigate between.
+Your task for this assignment is to refactor your Note Taker application with the MVC Framework, ORMs, and MySQL.
 
-## Goal
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+## Acceptance Criteria
 
-## User Story
+* MVC (Model View Controller)
+* ORM
+* MySQL
 
-AS A user, I want to be able to write and save notes
+## Deploying the App
 
-I WANT to be able to delete notes I've written before
+* This assignment must be deployed. Be sure to utilize the MYSQL Heroku Deployment Guide in the supplemental folder for guidance.
 
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+- - -
 
-## Business Context
+## Commit Early and Often
 
-For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+
+* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+
+* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+
+Follow these guidelines for committing:
+
+* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+
+* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+
+* Test your application before you commit to ensure functionality at every step in the development process.
+
+We would like you to have well over 200 commits by graduation, so commit early and often!
+
+## Submission on BCS
+
+You are required to submit the following:
+
+* The URL of the deployed application. This should be the link to the url provided by Heroku. Be sure not to submit a link to the Heroku dashboard.
+
+* The URL of the GitHub repository
+
+## Hiding API Keys
+* Utilize the [Dot Env](https://www.npmjs.com/package/dotenv) package for hiding sensitive pieces of information from your source code. 
 
 
-
-## Pictures of Deployed App 
-
-<img src="https://raw.githubusercontent.com/jschollmeier/Note-Taker/master/NTSS1.PNG" alt="My cool logo"/>
-<img src="https://raw.githubusercontent.com/jschollmeier/Note-Taker/master/NTSS2.PNG" alt="My cool logo"/>
-<img src="https://raw.githubusercontent.com/jschollmeier/Note-Taker/master/NTSS3.PNG" alt="My cool logo"/>
-<img src="https://raw.githubusercontent.com/jschollmeier/Note-Taker/master/NTSS4.PNG" alt="My cool logo"/>
-
+- - -
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

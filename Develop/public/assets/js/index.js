@@ -26,7 +26,7 @@ const getNotes = () => {
 
 // A function for saving a note to the db
 const saveNote = (note) => {
-  console.log(note);
+  
   return $.ajax({
     url: "/api/notes",
     data: note,
@@ -46,12 +46,14 @@ const deleteNote = (id) => {
 // If there is an activeNote, display it, otherwise render empty inputs
 const renderActiveNote = () => {
   $saveNoteBtn.hide();
+  //console.log("when does this happen?")
   
   if (activeNote.id) {
     $noteTitle.attr("readonly", true);
     $noteText.attr("readonly", true);
     $noteTitle.val(activeNote.title);
-    $noteText.val(activeNote.text);
+    $noteText.val(activeNote.note);
+    
   } else {
     $noteTitle.attr("readonly", false);
     $noteText.attr("readonly", false);
@@ -80,6 +82,7 @@ const handleNoteSave = function () {
 const handleNoteDelete = function (event) {
   // prevents the click listener for the list from being called when the button inside of it is clicked
   event.stopPropagation();
+  
 
   const note = $(this).parent(".list-group-item").data();
 
@@ -150,7 +153,7 @@ const renderNoteList = (notes) => {
   });
   inc = parseInt(inc);
   inc++;
-  console.log(inc);
+  
 
   $noteList.append(noteListItems);
 };
